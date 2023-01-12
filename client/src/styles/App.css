@@ -11,33 +11,96 @@
 * {
   margin: 0 auto;
   text-align: center;
+  scroll-behavior: smooth;
+}
+
+* a {
+  text-decoration: none;
+  color: #F8EDE6;
 }
 
 body {
   background-image: url('../assets/backsplash.png');
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-color: #171717;
   background-position: center;
-  color: white;
+  background-size: cover;
+  background-color: black;
+  color: #F8EDE6;
+  font-family: josefin ;
+}
+
+#flip {
+  transform: scalex(-1);
 }
 
 .App {
-  width: 100%;
-  background-color: rgb(24, 22, 22, .7);
+  width: 100vw;
+}
+
+
+.Header {
+  background-color: rgb(4, 48, 68, .8);
+  margin-bottom: 100vh;
+  height: 100vh;
 }
 
 .Header h1 {
   font-size: 90px;
   font-family: lavish;
   font-weight: 500;
-  padding-top: 20px;
   margin-bottom: -10px;
+}
+
+.flourish {
+  width: 100px;
+}
+
+.underline {
+  width: 40vw;
+  margin-top: -60px;
+  margin-bottom: 20vh;
+}
+
+.overline {
+  width: 40vw;
+  margin: 20vh auto -60px auto;
+  transform: scaleY(-1);
 }
 
 .Header h2 {
   font-size: 30px;
-  font-family: josefin;
   font-weight: 100;
+  padding-bottom: 30px;
+}
+
+.enter {
+  font-size: 24px;
+  border: 1px solid #F8EDE6;
+  padding: 10px;
+}
+
+.content {
+  width: 100vw;
+  background-color: rgb(4, 48, 68, .8);
+  margin: 20px auto;
+  padding: 20px;
+  padding-bottom: 40px;
+  margin-bottom: 33vh;
+}
+
+.content h1 {
+  font-weight: 100;
+  font-size: 48px;
+  padding-top: 20px;
   padding-bottom: 20px;
 }
+
+.content_text {
+  width: 50%;
+  padding: 20px;
+  line-height: 1.5;
+  font-size: 24px;
+  font-weight: 900;
+
+} 

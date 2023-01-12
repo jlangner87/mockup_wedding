@@ -28,20 +28,20 @@ body {
   background-color: black;
   color: #F8EDE6;
   font-family: josefin ;
+  overflow-x: hidden;
 }
 
-#flip {
-  transform: scalex(-1);
+#last {
+  margin-bottom: 60px;
 }
 
 .App {
   width: 100vw;
 }
 
-
 .Header {
   background-color: rgb(4, 48, 68, .8);
-  margin-bottom: 100vh;
+  margin-bottom: 33vh;
   height: 100vh;
 }
 
@@ -80,6 +80,16 @@ body {
   padding: 10px;
 }
 
+.next {
+  font-size: 24px;
+  border: 1px solid #F8EDE6;
+  position: absolute;
+  padding: 10px;
+  bottom: 0;
+  left: 48%;
+  margin: 0 auto 30px auto;
+}
+
 .content {
   width: 100vw;
   background-color: rgb(4, 48, 68, .8);
@@ -87,6 +97,7 @@ body {
   padding: 20px;
   padding-bottom: 40px;
   margin-bottom: 33vh;
+  position: relative;
 }
 
 .content h1 {
@@ -102,5 +113,57 @@ body {
   line-height: 1.5;
   font-size: 24px;
   font-weight: 900;
+}
 
-} 
+.party_container {
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.person_container {
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  margin: 40px;
+}
+
+.role {
+  line-height: 1.5;
+  font-size: 32px;
+  font-weight: 900;
+  padding-top: 20px;
+}
+
+.person {
+  line-height: 1.5;
+  font-size: 28px;
+}
+
+.party_photo {
+  width: 180px;
+  border-radius: 50%;
+  border: 1px solid #F8EDE6;
+}
+
+.italic {
+  font-style: italic;
+  font-size: 28px;
+  padding-bottom: 20px;
+}
+
+.footer {
+  width: 100vw;
+  height: 20px;
+  bottom: 0;
+  font-size: 20px;
+  color: #F8EDE6;
+  margin-bottom: 5px;
+}
+
+footer {
+  background-color: rgb(4, 48, 68, .8);
+  width: fit-content;
+}

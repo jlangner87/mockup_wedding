@@ -1,0 +1,43 @@
+@font-face {
+  font-family: lavish;
+  src: url('../assets/LavishlyYours-Regular.ttf');
+}
+
+@font-face {
+  font-family: josefin;
+  src: url('../assets/JosefinSlab-VariableFont_wght.ttf');
+}
+
+* {
+  margin: 0 auto;
+  text-align: center;
+}
+
+body {
+  background-image: url('../assets/backsplash.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-color: #171717;
+  background-position: center;
+  color: white;
+}
+
+.App {
+  width: 100%;
+  background-color: rgb(24, 22, 22, .7);
+}
+
+.Header h1 {
+  font-size: 90px;
+  font-family: lavish;
+  font-weight: 500;
+  padding-top: 20px;
+  margin-bottom: -10px;
+}
+
+.Header h2 {
+  font-size: 30px;
+  font-family: josefin;
+  font-weight: 100;
+  padding-bottom: 20px;
+}
